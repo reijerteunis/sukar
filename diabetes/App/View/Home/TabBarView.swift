@@ -66,12 +66,12 @@ struct TabBarView_Previews: PreviewProvider {
 
 extension TabBarView {
     func setupTabBar() {
-        UITabBar.appearance().barTintColor = UIColor(Color("WhiteColor"))
-        UITabBar.appearance().backgroundColor = UIColor(Color("WhiteColor"))
-        UITabBar.appearance().tintColor = .red
-        UITabBar.appearance().layer.borderColor = UIColor.clear.cgColor
-        UITabBar.appearance().clipsToBounds = true
-        UITabBar.appearance().isTranslucent = false
-        
+        let tabBarAppearance = UITabBarAppearance()
+        tabBarAppearance.configureWithTransparentBackground()
+        tabBarAppearance.backgroundColor = UIColor(Color("WhiteColor"))
+        tabBarAppearance.shadowColor = nil
+        tabBarAppearance.shadowImage = nil
+                
+        UITabBar.appearance().standardAppearance = tabBarAppearance
     }
 }
