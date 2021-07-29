@@ -9,6 +9,10 @@ import SwiftUI
 
 struct Dashboard: View {
     
+    init() {
+        UIScrollView.appearance().bounces = false
+    }
+    
     var body: some View {
         NavigationView {
             BgColorView(color: Color("BackgroundColor")) {
