@@ -13,6 +13,7 @@
 		6211B29726B1D1CA001B9DFB /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211B29626B1D1CA001B9DFB /* Summary.swift */; };
 		6211B29A26B1D8CD001B9DFB /* Premium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211B29926B1D8CD001B9DFB /* Premium.swift */; };
 		6211B29E26B28E01001B9DFB /* BgColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211B29D26B28E01001B9DFB /* BgColorView.swift */; };
+		6211B2A026B2DA1C001B9DFB /* ChartProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211B29F26B2DA1C001B9DFB /* ChartProgressBar.swift */; };
 		6282646A26AD36B200B26785 /* diabetesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6282646926AD36B200B26785 /* diabetesApp.swift */; };
 		6282646C26AD36B200B26785 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6282646B26AD36B200B26785 /* TabBarView.swift */; };
 		6282646E26AD36B400B26785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6282646D26AD36B400B26785 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		6211B29626B1D1CA001B9DFB /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
 		6211B29926B1D8CD001B9DFB /* Premium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premium.swift; sourceTree = "<group>"; };
 		6211B29D26B28E01001B9DFB /* BgColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgColorView.swift; sourceTree = "<group>"; };
+		6211B29F26B2DA1C001B9DFB /* ChartProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartProgressBar.swift; sourceTree = "<group>"; };
 		6282646626AD36B200B26785 /* diabetes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diabetes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6282646926AD36B200B26785 /* diabetesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diabetesApp.swift; sourceTree = "<group>"; };
 		6282646B26AD36B200B26785 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 				62ECD27826AEC56700AEDE4C /* BaseWidgetFooterText.swift */,
 				6211B29326B175DB001B9DFB /* PremiumButtonBorder.swift */,
 				6211B29D26B28E01001B9DFB /* BgColorView.swift */,
+				6211B29F26B2DA1C001B9DFB /* ChartProgressBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				6282648C26AD39CA00B26785 /* MoreView.swift in Sources */,
 				6282649026AD781800B26785 /* DashboardSummary.swift in Sources */,
 				6211B29A26B1D8CD001B9DFB /* Premium.swift in Sources */,
+				6211B2A026B2DA1C001B9DFB /* ChartProgressBar.swift in Sources */,
 				6282649426AD92F100B26785 /* DashboardWidgetHeaderView.swift in Sources */,
 				62ECD27326AEA08000AEDE4C /* BaseWidget.swift in Sources */,
 				6282649A26AD973B00B26785 /* DashboardWeightView.swift in Sources */,

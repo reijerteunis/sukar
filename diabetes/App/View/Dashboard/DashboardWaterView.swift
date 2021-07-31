@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DashboardWaterView: View {
+
     var body: some View {
         BaseWidget(
             header: DashboardWidgetHeaderView(
@@ -16,9 +17,9 @@ struct DashboardWaterView: View {
                 iconColor: Color("PrimaryColor"),
                 chevron: false
             ),
-            content: HStack(spacing: 8,content: {
-                Text("hi")
-            }),
+            content: ChartProgressBar(value: 8, maxValue: 10)
+                    .frame(height: 20)
+                    .padding(.bottom, 16),
             footer: BaseWidgetFooterText(title: "We recommend you drink 3 liter per day")
         )
     }
