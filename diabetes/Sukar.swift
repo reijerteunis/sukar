@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct diabetesApp: App {
+struct Sukar: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     var body: some Scene {
